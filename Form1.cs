@@ -22,26 +22,12 @@ namespace Dice_Game
             pictureBox1.Image = Image.FromFile("C:\\Users\\Win10-PC\\documents\\visual studio 2010\\Projects\\Dice_Game\\Dice_Game\\pictures\\dice.jpg");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         } 
-      
-
         private void button1_Click(object sender, EventArgs e)
         {
 
             pictureBox1.Load("C:\\Users\\Win10-PC\\documents\\visual studio 2010\\Projects\\Dice_Game\\Dice_Game\\pictures\\" + r.Next(1, 7) + ".png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
            
-        }
-
-       
-
-       
-        
-
-         
-
-           
-    
-
-        
+        }     
     }
 }
